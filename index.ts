@@ -18,7 +18,7 @@ const textMaterial = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
 fontLoader.load('/helvetiker_regular.typeface.json', (font) => {
     console.log('font loaded')
     const textGeometry = new TextGeometry(
-        'Floating Points',
+        'Floating Donuts',
         {
             font,
             size: 0.5,
