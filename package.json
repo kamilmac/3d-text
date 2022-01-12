@@ -2,7 +2,7 @@
   "scripts": {
     "deploy": "vercel --prod",
     "deploy-dev": "vercel",
-    "build": "parcel build index.html --dist-dir public",
+    "build": "parcel build index.html --dist-dir dist",
     "start": "parcel index.html"
   },
   "devDependencies": {
