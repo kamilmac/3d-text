@@ -2,7 +2,7 @@
   "scripts": {
     "deploy": "vercel --prod",
     "deploy-dev": "vercel",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --dist-dir public",
     "start": "parcel index.html"
   },
   "devDependencies": {
@@ -18,5 +18,10 @@
   },
   "staticFiles": {
     "staticPath": "static"
-  }
+  },
+  "name": "3d-text",
+  "version": "1.0.0",
+  "repository": "git@github.com:kamilmac/3d-text.git",
+  "author": "kamilmac <kmacinski@gmail.com>",
+  "license": "MIT"
 }
